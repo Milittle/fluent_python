@@ -1,3 +1,4 @@
+# author: milittle
 # A simple 2D vector class
 
 from math import hypot
