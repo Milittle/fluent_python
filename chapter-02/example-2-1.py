@@ -1,6 +1,7 @@
 # author: milittle
 # List comprehensions and readability
 
+# example-2-1
 def read_unicode_from_string():
     symbols = '$¢£¥€¤'
     codes = []

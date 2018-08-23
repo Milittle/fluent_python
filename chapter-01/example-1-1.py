@@ -1,6 +1,7 @@
 # author: milittle
 import collections
 
+# create a named tuple Class
 Card = collections.namedtuple('Card', ['rank', 'suit'])
 
 class FrenchDeck:
@@ -8,20 +9,23 @@ class FrenchDeck:
     suits = 'spades diamonds clubs hearts'.split()
 
     def __init__(self):
-        self._cards = [Card(rank, suit) for rank in self.ranks for suit in self.suits]
+        self._cards = [Card(rank, suit) for rank in self.ranks for suit in self.suits] # 笛卡儿积
     
+    # dunder method in orde to support len() function 
     def __len__(self):
         return len(self._cards)
 
+    # dunder method in order to implement object[] index calling
     def __getitem__(self, position):
         return self._cards[position]
 
+
+# 测试namedtuple
 def test_namedtuple():
     card = Card('7', 'diamonds')
     print(card)
-
     
-
+# 测试我们写的测试类
 def test_FrenchDeck():
     deck = FrenchDeck()
     print(len(deck))
@@ -49,7 +53,7 @@ def iterate_call():
 
 def reverse_call():
     deck = FrenchDeck()
-    for i in reversed(deck):
+    for i in reversed(deck):   # reversed() function implement reverse call
         print(i)
 
 
@@ -64,7 +68,7 @@ def sort_deck():
 
 
 def main():
-    sort_deck()
+    reverse_call()
 
 if __name__ == '__main__':
     main()
