@@ -1,3 +1,5 @@
+#!/usr/bin/python
+#-*- coding: utf-8 -*-
 # author:milittle
 # Defining and using a named tuple type
 from collections import namedtuple

@@ -1,3 +1,5 @@
+#!/usr/bin/python
+#-*- coding: utf-8 -*-
 # author:milittle
 # Basic operations with rows and columns in a numpy.ndarray.
 import numpy

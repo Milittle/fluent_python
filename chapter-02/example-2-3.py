@@ -1,3 +1,5 @@
+#!/usr/bin/python
+#-*- coding: utf-8 -*-
 # author: milittle
 # Listcomps versus map and filter
 

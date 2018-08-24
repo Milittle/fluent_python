@@ -1,3 +1,5 @@
+#!/usr/bin/python
+#-*- coding: utf-8 -*-
 # author:milittle
 # uses a carefully chosen set of “needles” to demonstrate the insert positions
 # returned by bisect. Its output is in Figure 2-4.

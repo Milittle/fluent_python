@@ -1,3 +1,5 @@
+#!/usr/bin/python
+#-*- coding: utf-8 -*-
 # author:milittle
 # Line items from a flat file invoice
 

@@ -1,3 +1,5 @@
+#!/usr/bin/python
+#-*- coding: utf-8 -*-
 # author:milittle
 # Cartesian product in a generator expression.
 

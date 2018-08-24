@@ -1,3 +1,5 @@
+#!/usr/bin/python
+#-*- coding: utf-8 -*-
 # author: milittle
 # Cartesian products 笛卡儿积
 

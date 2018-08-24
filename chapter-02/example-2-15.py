@@ -1,3 +1,5 @@
+#!/usr/bin/python
+#-*- coding: utf-8 -*-
 # author:milittle
 # The unexpected result: item t2 is changed and an exception is raised.
 

@@ -1,3 +1,5 @@
+#!/usr/bin/python
+#-*- coding: utf-8 -*-
 # author:milittle
 # Given a test score, grade returns the corresponding letter grade.
 import bisect
