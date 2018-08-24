@@ -1,3 +1,5 @@
+#!/usr/bin/python
+#-*- coding: utf-8 -*-
 # author: milittle
 # A simple 2D vector class
 
